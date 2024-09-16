@@ -1,0 +1,27 @@
+.container-filters {
+  width: 90vw;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+  padding: 1rem;  
+}
+
+.container-filters > label {
+  color: #000;
+  font-size: 1.7rem;
+  margin: 0.2rem;
+  font-weight: 800; 
+}
+
+.container-filters > select {
+  width: 18rem;
+  border-radius: 20px;
+  margin-left: 0.5rem;  
+  color: #070303;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
